@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- about -->
+    <p>
+    <h2>Project Overview</h2>
+    <li>
+        In this project  a digital image is superimposed on a scene from the real world, creating a view that is part reality and part virtual reality.
+        It can be used in newspapers and other types of print media.
+    </li>
+
+    <li>
+        When augmented reality is used with a newspaper, a photo in an article is scanned with the camera of a mobile device.
+    </li>
+    <li>
+        The AR software identifies the photo and then loads related digital content. The content is displayed in the device's camera view.
+    </li>
+    <li>
+        It's often positioned over the scanned photo so that the digital content appears to have replaced the photo.
+    </li>
+
+
+    </p>
+
+    </div>
+    <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+    </div>
+    <!-- /About -->
+</head>
+<body>
+<style>
+
+    body  {
+        background-image: url("https://static.pexels.com/photos/255379/pexels-photo-255379.jpeg");
+        background-color: aliceblue;
+    }
+
+
+
+</style>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!-- Contact --><html>
+<head>
+    <style>
+
+        body  {
+            background-image: url("https://static.pexels.com/photos/255379/pexels-photo-255379.jpeg");
+            background-color: aliceblue;
+        }
+
+
+
+    </style>
+</head>
+<div id="contact" class="section md-padding">
+
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Row -->
+        <div class="row">
+
+            <!-- Section-header -->
+            <div class="section-header text-center">
+                <h2 class="title" align="center">Project Team Details</h2>
+            </div>
+            <!-- /Section-header -->
+
+            <!-- contact -->
+            <div class="col-sm-4">
+                <div class="contact">
+                    <ul>
+                        <li>
+                            Sravya Para, Class id:25, email:spfng@mail.umkc.edu
+                        </li>
+                        <li> Sai Kumar , Class id:10, email: nkmrf@mail.umkc.edu</li>
+                        <li> Sasleen , class id: 35, email: sscpm@mail.umkc.edu</li>
+                        <li> sree Prathyusha, class id:22,email: sndkm@mail.umkc.edu</li>
+                    </ul>
+                    <!-- /contact -->
+                </div>
+            </div>
+        </div></div>
+</div>
+</html>
