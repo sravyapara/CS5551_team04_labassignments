@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cosmo/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<body>
+<!-- including nav bar -->
+<nav class="nav navbar-default">
+    <a class="navbar-brand" href="#">Video Finder</a>
+</nav>s
+<!-- including jumbotron -->
+<div class="jumbotron">
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <div class="panel">
+            <div class="form-group">
+                <label class="control-label">Enter text to search video:</label>
+                <input class="form-control" type="text" id="a">
+                <div>
+                    <button ng-click="trans()" class="btn btn-primary btn-sm">Click to perform CRUD operations</button>
+                    <button class="btn btn-primary btn-sm" ng-submit="insertData()">Insert</button>
+                    <button class="btn btn-primary btn-sm" ng-submit="deleteData()">Delete</button>
+                    <button class="btn btn-primary btn-sm" ng-submit="searchData()">Search</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h3><b>{{labelImage}}</b></h3>
+                    <img src={{displayImage}}>
+                    <h4>
+                        <b><a id="title1" href={{displayTitle}}>{{title}}</a></b>
+                        <h4><b>{{Des1}}</b>{{description}}</h4>
+                        <h4><b>{{Date1}}</b>{{publishedAt}}</h4>
+                        <input class="form-control" type="text" placeholder="Title">
+                        <input class="form-control" type="text" placeholder="Description">
+                        <input class="form-control" type="text" placeholder="Date">
+                        <button class="btn btn-primary btn-sm" ng-submit="updateData()">Update</button>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/app.js"></script>
